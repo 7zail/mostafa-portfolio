@@ -528,3 +528,24 @@ footer {
 html {
     scroll-behavior: smooth;
 }
+.skills-title {
+    color: white;
+    font-size: 25px;
+    margin: 40px 0 30px;
+}
+
+.personal-title {
+    margin-top: 70px;
+}
+
+body.light-mode .skills-title {
+    color: #111111;
+}
+.contact-info a {
+    color: #00ff88;
+    text-decoration: none;
+}
+
+.contact-info a:hover {
+    text-decoration: underline;
+}
